@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Robotic Arm Bluetooth</string>
+    <string name="get_started">Get Started!</string>
+    <string name="connect">Connect</string>
+    <string name="logo">Logo</string>
+    <string name="home">Home</string>
+</resources>
