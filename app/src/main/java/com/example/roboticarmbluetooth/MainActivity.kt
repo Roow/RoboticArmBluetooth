@@ -18,5 +18,14 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+        button2.setOnClickListener {
+            startActivity(Intent(this, DeviceSelection::class.java))
+
+        }
+
+
+
+
+
     }
 }
