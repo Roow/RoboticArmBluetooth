@@ -22,10 +22,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, DeviceSelection::class.java))
 
         }
-
-
-
-
-
     }
+
 }
