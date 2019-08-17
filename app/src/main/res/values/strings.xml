@@ -5,4 +5,5 @@
     <string name="logo">Logo</string>
     <string name="home">Home</string>
     <string name="refresh">Refresh</string>
+    <string name="initiate">Initiate</string>
 </resources>

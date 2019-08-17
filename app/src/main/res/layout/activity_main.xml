@@ -9,37 +9,21 @@
 
 
     <Button
-        android:id="@+id/button2"
-        style="@android:style/Widget.DeviceDefault.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/background_white"
-        android:text="@string/connect"
-        android:textColor="#5499C7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
-
-    <Button
         android:id="@+id/button"
         style="@android:style/Widget.DeviceDefault.Button.Borderless"
-        android:layout_width="180dp"
+        android:layout_width="160dp"
         android:layout_height="60dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/button"
         android:fontFamily="sans-serif-light"
-        android:text="@string/get_started"
+        android:text="@string/initiate"
         android:textColor="@android:color/background_light"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.186" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"

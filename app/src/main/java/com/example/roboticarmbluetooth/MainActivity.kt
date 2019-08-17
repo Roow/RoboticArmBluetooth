@@ -14,14 +14,10 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
             d("feedback", "button pressed")
-            startActivity(Intent(this, Controls::class.java))
-        }
-
-
-        button2.setOnClickListener {
             startActivity(Intent(this, DeviceSelection::class.java))
-
         }
+
+
     }
 
 }
