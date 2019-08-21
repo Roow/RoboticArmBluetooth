@@ -68,4 +68,8 @@ public class VerticalSeekBar extends AppCompatSeekBar {
         }
         return true;
     }
+
+    public void updateThumb(){
+        onSizeChanged(getWidth(), getHeight(), 0,0);
+    }
 }

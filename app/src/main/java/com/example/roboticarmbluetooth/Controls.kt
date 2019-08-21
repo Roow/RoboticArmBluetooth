@@ -159,15 +159,23 @@ class Controls : AppCompatActivity() {
         })
 
         home_button.setOnClickListener {
-            seekBar1.progress = 0
-            seekBar1.max = 120
             seekBar1.progress = 60
+            seekBar1.updateThumb()
             seekBar2.progress = 60
+            seekBar2.updateThumb()
             seekBar3.progress = 90
+            seekBar3.updateThumb()
             seekBar4.progress = 90
+            seekBar4.updateThumb()
             seekBar5.progress = 90
+            seekBar5.updateThumb()
             seekBar6.progress = 90
+            seekBar6.updateThumb()
             seekBar7.progress = 0
+            seekBar7.updateThumb()
+
+
+
 
         }
     }
