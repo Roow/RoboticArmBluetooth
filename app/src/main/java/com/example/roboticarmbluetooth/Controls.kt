@@ -6,8 +6,10 @@ import android.bluetooth.BluetoothDevice
 import android.bluetooth.BluetoothSocket
 import android.content.Context
 import android.os.AsyncTask
+import android.os.Build
 import android.os.Bundle
 import android.widget.SeekBar
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_controls.*
 import java.io.IOException
@@ -24,6 +26,7 @@ class Controls : AppCompatActivity() {
         lateinit var address: String
     }
 
+    @RequiresApi(Build.VERSION_CODES.N)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_controls)
@@ -156,6 +159,8 @@ class Controls : AppCompatActivity() {
         })
 
         home_button.setOnClickListener {
+            seekBar1.progress = 0
+            seekBar1.max = 120
             seekBar1.progress = 60
             seekBar2.progress = 60
             seekBar3.progress = 90
