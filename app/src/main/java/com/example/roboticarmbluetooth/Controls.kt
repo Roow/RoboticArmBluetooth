@@ -156,12 +156,12 @@ class Controls : AppCompatActivity() {
         })
 
         home_button.setOnClickListener {
-            seekBar1.progress = 0
-            seekBar2.progress = 0
-            seekBar3.progress = 0
-            seekBar4.progress = 0
-            seekBar5.progress = 0
-            seekBar6.progress = 0
+            seekBar1.progress = 60
+            seekBar2.progress = 60
+            seekBar3.progress = 90
+            seekBar4.progress = 90
+            seekBar5.progress = 90
+            seekBar6.progress = 90
             seekBar7.progress = 0
 
         }
