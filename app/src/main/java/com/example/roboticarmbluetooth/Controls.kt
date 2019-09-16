@@ -40,7 +40,7 @@ class Controls : AppCompatActivity() {
 
         seekBar1.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener{
             override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
-                sendCommand(Int.toString() + "a")
+                sendCommand(p1.toString() + "a")
 
             }
 
@@ -58,7 +58,7 @@ class Controls : AppCompatActivity() {
 
         seekBar2.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
-                sendCommand(Int.toString() + "b")
+                sendCommand(p1.toString() + "b")
 
             }
 
@@ -76,7 +76,7 @@ class Controls : AppCompatActivity() {
 
         seekBar3.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
-                sendCommand(Int.toString() + "c")
+                sendCommand(p1.toString() + "c")
 
             }
 
@@ -94,7 +94,7 @@ class Controls : AppCompatActivity() {
 
         seekBar4.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
-                sendCommand(Int.toString() + "d")
+                sendCommand(p1.toString() + "d")
 
             }
 
@@ -112,7 +112,7 @@ class Controls : AppCompatActivity() {
 
         seekBar5.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
-                sendCommand(Int.toString() + "e")
+                sendCommand(p1.toString() + "e")
 
             }
 
@@ -130,7 +130,7 @@ class Controls : AppCompatActivity() {
 
         seekBar6.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
-                sendCommand(Int.toString() + "f")
+                sendCommand(p1.toString() + "f")
 
             }
 
@@ -147,7 +147,7 @@ class Controls : AppCompatActivity() {
 
         seekBar7.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
-                sendCommand(Int.toString() + "g")
+                sendCommand(p1.toString() + "g")
             }
 
             override fun onStartTrackingTouch(p0: SeekBar?) {
